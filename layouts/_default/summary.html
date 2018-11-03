@@ -1,0 +1,12 @@
+<article class="post">
+  <header>
+		<a href="{{ .Permalink }}" class="post-link"><h3 class="post-title">{{ .Title }}</h3></a>
+		<h4 class="post-date">Posted on {{ .Date }}</h4>
+  </header>
+	<div class="post-summary">
+		{{ .Summary }}
+	</div>
+  <footer>
+    <a class="read-more" href="{{ .Permalink }}"><nobr>Read more</nobr></a>
+	</footer>
+</article>
